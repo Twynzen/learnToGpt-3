@@ -2,7 +2,16 @@
 La intención es comprender y realizar diferentes pruebas para el uso y consumo de la API de openIA GPT-3.
 Esta API da acceso a modelos que se pueden usar para el procesamiento del lenguaje.
 
->Lo siguiente serían diferentes conceptos importantes a tener en cuanta para utilizar correctamente esta herramienta:
+>Lo siguiente serían diferentes conceptos importantes a tener en cuenta para utilizar correctamente esta herramienta:
 ### Temperatura:
-Es uno de los ajustes importantes, pues permite definir si el modelo tendría resultados idénticos o muy similares. En pocas palabras
-define si se repetira o no las respuestas que el modelo considera adecuados como respuesta.
+Es un ajuste que permite definir si el modelo tendría resultados idénticos o similares entre sus posibles respuestas. Se puede concluir que la temperatura entre más elevada dará respuestas más variadas.
+### Tokens:
+Los procesamientos se dividen en unidades pequeñas llamadas tokens
+
+![](assets/img/tokens_division.png)
+
+Los tokens normalmente van en palabras cortas y se llegan asub dividir para palabras largas. 
+Estos tokens se relacionan en probabildiad con una palabra una relación (Gato es cercano a "Animal"), entre más cercana es el token a esta probabilidad general, más valida es la temperatura para definir si se obitene la probabilidad más alta o si se obtienen otras palabras cercanas relacionadas.
+
+## Creando la aplicación:
+Proximamente...
