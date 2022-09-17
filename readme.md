@@ -14,4 +14,9 @@ Los tokens normalmente van en palabras cortas y se llegan asub dividir para pala
 Estos tokens se relacionan en probabildiad con una palabra una relación (Gato es cercano a "Animal"), entre más cercana es el token a esta probabilidad general, más valida es la temperatura para definir si se obitene la probabilidad más alta o si se obtienen otras palabras cercanas relacionadas.
 
 ## Creando la aplicación:
-Proximamente...
+* 1. Se clona git clone
+> https://github.com/openai/openai-quickstart-node.git 
+* 2. Se crea copia de las variables de entorno 
+> cp .env.example .env
+
+Por el momento se da a entender que necesita un proyecto de backend para utilizar las variables de entorno sin riesgo
