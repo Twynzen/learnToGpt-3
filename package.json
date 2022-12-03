@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  },
+  "name": "learntogpt-3",
+  "description": "La intención es comprender y realizar diferentes pruebas para el uso y consumo de la API de openIA GPT-3.\r Esta API da acceso a modelos que se pueden usar para el procesamiento del lenguaje.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testDev": "nodemon app.js",
+    "testProd": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twynzen/learnToGpt-3.git"
+  },
+  "author": {
+    "Daniel Castiblanco": "Twynzen <razzziel001@gmail.com>",
+    "Alvaro Garzón": "Alvaro8317 <eduardo831_@hotmail.com>"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Twynzen/learnToGpt-3/issues"
+  },
+  "homepage": "https://github.com/Twynzen/learnToGpt-3#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
