@@ -1,8 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // const { Configuration, OpenAIApi } = require("openai");
-const openai_1 = require("openai");
-const instanceConfiguration = new openai_1.Configuration({
+import { Configuration, OpenAiApi } from 'openai';
+import * as dotenv from 'dotenv';
+
+const instanceConfiguration = new Configuration({
     apiKey: process.env.APIKEYOPENAI,
 });
 const openai = new OpenAIApi(instanceConfiguration);

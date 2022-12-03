@@ -7,6 +7,7 @@
   "description": "La intención es comprender y realizar diferentes pruebas para el uso y consumo de la API de openIA GPT-3.\r Esta API da acceso a modelos que se pueden usar para el procesamiento del lenguaje.",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "testDev": "nodemon app.js",
     "testProd": "node app.js"
@@ -25,6 +26,8 @@
   },
   "homepage": "https://github.com/Twynzen/learnToGpt-3#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "@types/node": "^18.11.10",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
   }
 }
