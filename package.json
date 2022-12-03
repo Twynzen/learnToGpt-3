@@ -7,7 +7,6 @@
   "description": "La intención es comprender y realizar diferentes pruebas para el uso y consumo de la API de openIA GPT-3.\r Esta API da acceso a modelos que se pueden usar para el procesamiento del lenguaje.",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "testDev": "nodemon app.js",
     "testProd": "node app.js"
