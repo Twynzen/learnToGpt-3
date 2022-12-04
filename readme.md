@@ -20,3 +20,22 @@ Estos tokens se relacionan en probabildiad con una palabra una relación (Gato e
 > cp .env.example .env
 
 Por el momento se da a entender que necesita un proyecto de backend para utilizar las variables de entorno sin riesgo
+
+Hay varias acciones que puedes realizar con la constante openai una vez que se ha creado. Algunas de las posibilidades incluyen:
+
+1. Listar los motores disponibles en la API de GPT-3 con openai.listEngines()
+2. Crear una nueva sesión de GPT-3 con openai.createSession()
+3. Enviar una solicitud de completado de texto a GPT-3 con openai.completions()
+4. Obtener detalles sobre una sesión de GPT-3 existente con openai.getSession()
+5. Eliminar una sesión de GPT-3 con openai.deleteSession()
+
+>Un ejemplo de como llamar la lista de motores a usar:
+```js 
+const main = async() => {
+
+    //De esta manera obtenemos una lista de los motores disponibles en la API
+    const engines = await openai.listEngines();
+    const enginesList = engines.data;
+    console.log(enginesList);
+};
+```
