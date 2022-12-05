@@ -30,3 +30,8 @@ console.log(response);  // "Estoy bien, ¿y tú?"
 * En este ejemplo, se utiliza el motor "text-davinci-002" para generar una respuesta coherente y relevante a la pregunta "Hola, ¿cómo estás?". La respuesta generada por el motor es "Estoy bien, ¿y tú?"
 
 * Este es sólo un ejemplo simple de cómo se puede utilizar el motor "text-davinci-002" en la API de GPT-3 para tareas de chat. Puedes modificar los parámetros de entrada, como el prompt o la temperatura, para adaptar el motor a tus necesidades específicas. Además, puedes utilizar otros motores disponibles en la API de GPT-3 para tareas
+
+# Errores visto esn ChatGPT
+1. Aquí podemos ver como al dar un prompt de continuar luego de anteriormente pasarle un ejemplo de codigo confunde el texto plano con el texto orientado a lectura de codigo:
+
+![](assets/img/coderr.png)
