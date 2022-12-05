@@ -40,3 +40,6 @@ const main = async() => {
 };
 ```
 
+# Nuevo Autor
+* Con conlaboración de Alvaro se implemento la librería dotenv que permitirá una mejor gestión de los ambientes de entorno. 
+
