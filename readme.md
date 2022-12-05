@@ -23,6 +23,7 @@ Por el momento se da a entender que necesita un proyecto de backend para utiliza
 
 Hay varias acciones que puedes realizar con la constante openai una vez que se ha creado. Algunas de las posibilidades incluyen:
 
+<<<<<<< HEAD
 1. Listar los motores disponibles en la API de GPT-3 con openai.listEngines()
 2. Crear una nueva sesión de GPT-3 con openai.createSession()
 3. Enviar una solicitud de completado de texto a GPT-3 con openai.completions()
@@ -42,4 +43,5 @@ const main = async() => {
 
 # Nuevo Autor
 * Con conlaboración de Alvaro se implemento la librería dotenv que permitirá una mejor gestión de los ambientes de entorno. 
+
 
