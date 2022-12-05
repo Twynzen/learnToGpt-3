@@ -23,8 +23,25 @@ Por el momento se da a entender que necesita un proyecto de backend para utiliza
 
 Hay varias acciones que puedes realizar con la constante openai una vez que se ha creado. Algunas de las posibilidades incluyen:
 
-Listar los motores disponibles en la API de GPT-3 con openai.listEngines()
-Crear una nueva sesión de GPT-3 con openai.createSession()
-Enviar una solicitud de completado de texto a GPT-3 con openai.completions()
-Obtener detalles sobre una sesión de GPT-3 existente con openai.getSession()
-Eliminar una sesión de GPT-3 con openai.deleteSession()
+<<<<<<< HEAD
+1. Listar los motores disponibles en la API de GPT-3 con openai.listEngines()
+2. Crear una nueva sesión de GPT-3 con openai.createSession()
+3. Enviar una solicitud de completado de texto a GPT-3 con openai.completions()
+4. Obtener detalles sobre una sesión de GPT-3 existente con openai.getSession()
+5. Eliminar una sesión de GPT-3 con openai.deleteSession()
+
+>Un ejemplo de como llamar la lista de motores a usar:
+```js 
+const main = async() => {
+
+    //De esta manera obtenemos una lista de los motores disponibles en la API
+    const engines = await openai.listEngines();
+    const enginesList = engines.data;
+    console.log(enginesList);
+};
+```
+
+# Nuevo Autor
+* Con conlaboración de Alvaro se implemento la librería dotenv que permitirá una mejor gestión de los ambientes de entorno. 
+
+
