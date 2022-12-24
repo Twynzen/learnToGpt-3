@@ -44,4 +44,13 @@ const main = async() => {
 # Nuevo Autor
 * Con conlaboración de Alvaro se implemento la librería dotenv que permitirá una mejor gestión de los ambientes de entorno. 
 
+# Info importante para el reuso y o control de IA sin reentrenar nuevas
+
+* Es viable utilizar una API de procesamiento del lenguaje natural como GPT-3 para enviar un input fantasma y obtener respuestas predefinidas siempre y cuando tengas acceso a la API y cumplas con los términos de uso de la API. Algunas cosas a tener en cuenta al utilizar una API de procesamiento del lenguaje natural de esta manera son:
+
+* Es posible que tengas que pagar por el uso de la API, dependiendo del plan de precios que elijas.
+Asegúrate de leer y comprender los términos de uso de la API antes de comenzar a utilizarla. Algunas APIs pueden tener restricciones en el uso de sus modelos y en la forma en que se pueden utilizar sus resultados.
+Asegúrate de proporcionar un filtro adecuado para cada caso. Al utilizar una API de procesamiento del lenguaje natural, es posible que obtengas respuestas que no estén relacionadas con el input que proporcionaste o que no sean apropiadas para el contexto. Es importante tener cuidado al utilizar los resultados de la API y asegurarte de que están filtrados y adaptados adecuadamente para cada caso.
+Espero que esto te haya dado algunas cosas en las que pensar. ¡Buena suerte con tu proyecto!
+
 

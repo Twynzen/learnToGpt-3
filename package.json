@@ -10,8 +10,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "testDev": "nodemon src/index.js",
-        "testProd": "node src/index.js",
+        "testDev": "nodemon index.js",
+        "testProd": "node index.js",
         "compile": "tsc"
     },
     "repository": {
